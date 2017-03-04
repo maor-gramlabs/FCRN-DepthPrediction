@@ -1,5 +1,6 @@
 from .network import Network
 
+
 class ResNet50UpProj(Network):
     def setup(self):
         (self.feed('data')
